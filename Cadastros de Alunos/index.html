@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Novos Alunos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <fieldset class="grupo">
+    <form action="">
+  
+        <h1>Cadastro de Novo Aluno</h1>
+
+        <h3>Dados pessoais:</h3>
+        
+        <div class="dados">
+    
+            <label for="nome">Nome do Aluno:</label>
+            <input type="text" required name="nome" maxlength="40" id="nome" placeholder="Ex: Diego Sousa"><br>
+        
+            <label class="data" for="data">Data de Nascimento:</label>
+            <input type="date" id="data" name="data" required placeholder="aa/mm/aaaa"> <br>
+
+            <label class="cpf" for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" maxlength="14" placeholder="000.000.000.00"> <br>
+
+            <label for="nmae">Nome da Mãe:</label>
+             <input type="text" id="nmae" name="nmae" required placeholder="Ex: Maria de Fatima" ><br>
+
+            <label for="npai">Nome do Pai:</label>
+            <input type="text" id="npai" name="npai" placeholder="Ex: Deusdete Sousa"> <br>
+
+            <label for="resp">Responsável:</label> 
+            <input type="text" name="resp" id="resp" placeholder="Nome do Responsável"> <br>
+
+
+            <label for="tele">Telefone:</label>
+            <input type="tel" id="tele" name="tele" required placeholder="(85) 99160-5584" maxlength="14"><br>
+       
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Email Válido"><br>
+
+        </div>
+
+        </div>
+        </fieldset>
+
+        <fieldset>
+
+            <h3>Informações de Matrícula:</h3> 
+
+                    <label for="serie">Série:</label>
+                    <select type="select" id="serie" name="serie"> 
+                        <option selected disabled value="">Selecione</option>
+                        <option value="serie1">1º Ano</option> 
+                        <option value="serie2">2º Ano</option> 
+                        <option value="serie3">3º Ano</option>   
+                    </select> 
+                <br><br>
+
+                <label>Turno:</label> <br>
+
+                <input type="radio" name="turno" id="manha" volue="manha">
+                <label for="manha">Manhã</label> <br>   
+                <input type="radio" name="turno" id="tarde">
+                <label for="tarde">Tarde</label><br>
+                <input type="radio" name="turno" id="noite">
+                <label for="noite">Noite</label> <br><br>
+                    
+
+                <label>Atividades Extracurriculares</label> <br><br>
+
+                <input type="checkbox" name="excurricolares" id="infor">
+                <label for="infor">Informática</label> 
+
+                <input type="checkbox" name="excurricolares" id="musica">
+                <label for="musica">Música</label> 
+
+                <input type="checkbox" name="excurricolares" id="vol">
+                <label for="vol">Vôlei</label> 
+
+                <input type="checkbox" name="excurricolares" id="fut">
+                <label for="fut">Futebol</label> 
+
+                <input type="checkbox" name="excurricolares" id="basq">
+                <label for="basq">Basquete</label> <br>
+           
+        </fieldset>
+
+        <input type="submit" value="Enviar Formulario">
+        <input type="reset" value="Limpar Campos">
+
+    </form>
+
+
+
+</body>
+</html>
