@@ -1,2 +1,2 @@
-Neste Fomulário, eu criei só com o Intuido de treinar mesmo, praticar.
-Ja que foi um dos temas do curso, Formulário, dai quis colocar em prática.
+Neste Fomulário, eu criei só com o Intuito de treinar, praticar.
+Ja que foi um dos temas do curso, dai quis colocar em prática.
